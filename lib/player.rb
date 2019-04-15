@@ -20,7 +20,7 @@ end
 def attacks(player)
 	puts "#{@name} attaque #{player.name}" 
 	damage_received = compute_damage
-	puts "il lui inflige #{damage_received} points de dégats"
+	puts "#{name} lui inflige #{damage_received} points de dégats"
 
 
 	player.gets_damage(damage_received)
