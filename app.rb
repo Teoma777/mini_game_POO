@@ -5,19 +5,16 @@ require_relative 'lib/game'
 require_relative 'lib/player'
 
 
+
 player1 = Player.new("Josiane")
 player2 = Player.new("José")
 puts "  Voici l'état de chaque joueur : "
 player1.show_state
 player2.show_state
 
-#puts " = = = = = = = = = = = = = = = = = = = = = = = ="
-#puts "\n Passons à la phase d'attaque :"
+
 
 while player1.life_points > 0 && player2.life_points > 0  
-#puts "  \n "
-
-
 puts " \n 
 Passons à la phase d'attaque :
 "
@@ -30,9 +27,6 @@ puts "\n Voici l'état de chaque joueur : "
 player1.show_state
 player2.show_state
 end
-
-
-
 
 
 
